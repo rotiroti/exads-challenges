@@ -21,7 +21,7 @@ final class IrishNationalLottery
 
     private const NEXT_WEEK_DAY = 'next saturday ' . self::LOTTERY_TIME;
 
-    private $currentDateTime;
+    private DateTime $currentDateTime;
 
     /**
      * IrishNationalLottery constructor.
@@ -85,7 +85,7 @@ final class IrishNationalLottery
     }
 
     /**
-     * Check if the currentDateTime.
+     * Check if the currentDateTime is a lottery day (Wed, Sat at 8 pm).
      * @return bool
      */
     private function isLotteryDay(): bool
