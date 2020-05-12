@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4d235cbb159169a30381b8d1a4842e1b",
+    "content-hash": "9d0b7aa7eefe1598b1c916ef25d0f80c",
     "packages": [
         {
             "name": "phpab/phpab",
@@ -3403,6 +3403,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
+        "php": "^7.4",
         "ext-pdo": "*",
         "ext-mysqli": "*"
     },
